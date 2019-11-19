@@ -35,3 +35,14 @@ voltage=3.3
    
    Στα 1 η διαφορα ειναι 0.000013
   
+  
+ Στα 1.5 Gigaherz ,μοντελο TimeSimpleCPU Και τεχνολογια μνημης ddr3  χρονος εκτελεσης 0.000061   
+  Average memory access latency per DRAM burst  25441.13
+ Average DRAM read bandwidth in MiByte/s  482.45 
+  
+Στα  2 Gigaherz ,μοντελο TimeSimpleCPU  Και τεχνολογια μνημης ddr4  χρονος εκτελεσης 0.000059
+Average memory access latency per DRAM burst 26591.66 
+Average DRAM read bandwidth in MiByte/s  487.46
+
+
+ Το ευρος ζωνης του 2ου συστηματος ειναι μεγαλυτερο εξαιτιας του ταχυτερου επεξεργαστη και της ταχυτερης μνημης οσο αφορα τον λανθανοντα χρονο..
