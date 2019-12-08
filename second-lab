@@ -17,6 +17,12 @@ speclibm: 1.501
 specsjeng: 1.37
 specmcf: 1.967
 
-Όπως προκύπτει  με εξαιρεση τα b/m speclibm και specsjeng  εχουμε τέλειο scalling.Για το speclib  τα cpi στα 2ghz ειναι περισσότερα κατα 1.33 φορες, τα read και write memory bandwidth είναι 1.5019 φορες μεγαλυτερα ,το average icache overall miss latency ειναι μικροτερα κατα 1/1.336.Επίσης στα 1ghz εχω ελαχιστα περισσότερα hits και ελαχιστα λιγότερα misses στη dcache.
-Παρατηρόυμε οτι οι αναλογίες που φτιάξαμε ειναι κοντά στο scalling των χρόνων εκτέλεσης,καθως και οτι στα `1ghz εχω ορθότερη προσπέλαση δεδομένων στην dcache.
-Για το specsjeng 
+Όπως προκύπτει  με εξαιρεση τα b/m speclibm και specsjeng  εχουμε τέλειο scalling.
+Για το speclib  τα cpi στα 2ghz ειναι περισσότερα κατα 1.33 φορες, τα read και write memory bandwidth είναι 1.5019 φορες
+μεγαλυτερα ,το average icache overall miss latency ειναι μικροτερο κατα 1/1.336.Επίσης στα 1ghz εχω ελαχιστα περισσότερα hits 
+και ελαχιστα λιγότερα misses στη dcache.
+Παρατηρόυμε οτι οι αναλογίες που φτιάξαμε ειναι κοντά στο scalling των χρόνων εκτέλεσης,καθως και οτι στα `1ghz εχω ορθότερη 
+προσπέλαση δεδομένων στην dcache.
+Για το specsjeng   τα cpi στα 2ghz  ειναι 1.45 φορες περισσοτερα ,τα read και write bandwidth  1,37 φορες μεγαλύτερα,το average
+icache overall miss latency μικροτερο κατα 1/1.29 .Τωρα ,στα 1 ghz  εχω ελαχιστα λιγοτερα hits και ελαχιστα περισσότερα misses.
+Με την ιδια λογική  προκύπτει το αποτέλεσμα του scalling. 
